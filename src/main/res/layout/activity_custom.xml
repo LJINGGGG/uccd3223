@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/containerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      >
+
+
+        <Button
+            android:id="@+id/back_button3"
+            android:layout_width="128dp"
+            android:layout_height="69dp"
+            android:background="#6F8FAF"
+            android:text="Back"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.113"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.959" />
+
+        <TextView
+            android:id="@+id/Bill_title"
+            android:layout_width="365dp"
+            android:layout_height="136dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Bill Custom Break-up"
+            android:textColor="#0277BD"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.117" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="416dp"
+            android:layout_height="241dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.358">
+
+            <EditText
+                android:id="@+id/bill_amount_editText"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:ems="10"
+                android:hint="Enter Bill Amount"
+                android:textColorHint="#0277BD"
+                android:textColor="@color/white"
+                android:inputType="numberDecimal"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/num_people_editText"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:ems="10"
+                android:textColorHint="#0277BD"
+                android:textColor="@color/white"
+                android:hint="Enter the number of people"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/add_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Add" />
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

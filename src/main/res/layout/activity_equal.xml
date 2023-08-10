@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-30dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <Button
+            android:id="@+id/calculate_equal_button"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:text="Calculate Equal Breakdown"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.768" />
+
+        <EditText
+            android:id="@+id/num_people_editText"
+            android:layout_width="371dp"
+            android:layout_height="77dp"
+            android:hint="Enter Number of People"
+            android:inputType="number"
+            android:textColor="#0277BD"
+            android:textColorHint="#0277BD"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/calculate_equal_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
+
+        <EditText
+            android:id="@+id/bill_amount_editText"
+            android:layout_width="372dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="22dp"
+            android:hint="Enter Bill Amount"
+            android:inputType="numberDecimal"
+            android:textColor="#0277BD"
+            android:textColorHint="#0277BD"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.197" />
+
+        <TextView
+            android:id="@+id/Bill_title"
+            android:layout_width="372dp"
+            android:layout_height="62dp"
+            android:text="Bill Equal Break-up"
+            android:textColor="#0277BD"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.41"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05" />
+
+        <TextView
+            android:id="@+id/equal_result_textView"
+            android:layout_width="201dp"
+            android:layout_height="149dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.539" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="128dp"
+            android:layout_height="69dp"
+            android:text="Back"
+            android:textSize="20dp"
+            android:background="#6F8FAF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.113"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.959" />
+
+        <Button
+            android:id="@+id/share_button"
+            android:layout_width="133dp"
+            android:layout_height="68dp"
+            android:background="#6F8FAF"
+            android:text="Share"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.852"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.957" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

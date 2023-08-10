@@ -1,0 +1,16 @@
+my/edu/utar/mobile/equal.java
+ my.edu.utar.mobile.equal
+ my.edu.utar.mobile.equal$1
+my/edu/utar/mobile/BuildConfig.java
+ my.edu.utar.mobile.BuildConfig
+my/edu/utar/mobile/custom.java
+ my.edu.utar.mobile.custom
+ my.edu.utar.mobile.custom$1
+my/edu/utar/mobile/MainActivity.java
+ my.edu.utar.mobile.MainActivity
+my/edu/utar/mobile/customResult.java
+ my.edu.utar.mobile.customResult
+ my.edu.utar.mobile.customResult$1
+ my.edu.utar.mobile.customResult$2
+ my.edu.utar.mobile.customResult$3
+ my.edu.utar.mobile.customResult$4
